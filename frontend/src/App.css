@@ -1,0 +1,152 @@
+/* Herro Info section card */
+
+
+.card-img {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Add hover effect to the cards */
+.info-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.info-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+.profile-page {
+  max-width: 900px;
+  margin: auto;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+}
+
+.profile-pic img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.profile-info h3 {
+  margin-bottom: 10px;
+}
+
+.address-section h4 {
+  margin-bottom: 20px;
+}
+
+
+
+
+.profile-info {
+  margin-left: 2rem;
+  margin-top: 3rem;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile-info table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.profile-info td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+.profile-info b {
+  color: #1a1b1c;
+}
+
+.profile-info tr:last-child td {
+  border-bottom: none;
+}
+
+
+
+
+
+
+
+
+
+.address-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.table-container {
+  max-width: 800px;
+  margin: 0 auto;
+  overflow-x: auto;
+}
+
+.styled-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 16px;
+  text-align: left;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.styled-table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: center;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 12px 15px;
+  border: 1px solid #dddddd;
+}
+
+.styled-table tbody tr {
+  background-color: #f3f3f3;
+  border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #fdfdfd;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+.styled-table tbody tr:hover {
+  background-color: #d1e7dd;
+}
+
+.update-button {
+  background-color: #009879;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.update-button:hover {
+  background-color: #007f68;
+}
+
+h4 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
